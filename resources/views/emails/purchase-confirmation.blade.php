@@ -140,6 +140,31 @@
             }
         }
 
+        /* 📱 Mobile responsiveness */
+        @media only screen and (max-width: 600px) {
+            .transaction-details {
+                padding: 16px;
+                margin: 0 16px;
+                width: calc(100% - 32px);
+            }
+
+            .detail-row {
+                flex-direction: column;
+                text-align: left;
+                padding: 12px 0;
+            }
+
+            .detail-value {
+                text-align: left;
+                margin-top: 8px;
+                padding-left: 0;
+            }
+
+            .detail-label {
+                margin-bottom: 4px;
+            }
+        }
+
         .info-alert {
             background-color: #eff6ff;
             border-left: 4px solid #3b82f6;
