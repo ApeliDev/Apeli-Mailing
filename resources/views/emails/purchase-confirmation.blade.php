@@ -175,13 +175,21 @@
                     </div>
                 </div>
                 
-                <div class="info-alert">
-                    <p><strong>Transaction Process:</strong></p>
-                    <ol style="margin: 8px 0 0 20px; padding: 0;">
-                        <li style="margin-bottom: 8px;"><strong>Verification Stage 1:</strong> Conducted by our technician, Eng. Peter Mwangi, at the Base Titanium Lab in Kwale, Kenya.</li>
-                        <li style="margin-bottom: 8px;"><strong>Verification Stage 2:</strong> Final inspection at our UK Headquarters by Dr. Susan Whitaker.</li>
-                        <li><strong>Payment:</strong> Once both inspections are complete, funds will be released via escrow through the Central Bank of Kenya.</li>
-                    </ol>
+                <div class="transaction-details" style="width: 100%; max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif; background: #ffffff; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
+                    <h2 style="margin: 0 0 20px 0; font-size: 20px; color: #111827; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid #e5e7eb;">Transaction Details</h2>
+                    
+                    <div class="detail-row" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
+                        <div class="detail-label" style="font-weight: 500; color: #4b5563; min-width: 120px;">Item:</div>
+                        <div class="detail-value" style="color: #111827; text-align: right; flex: 1;">German Duss 12lbs Stove</div>
+                    </div>
+                    
+                    <div class="detail-row" style="display: flex; justify-content: space-between; padding: 12px 0;">
+                        <div class="detail-label" style="font-weight: 500; color: #4b5563; min-width: 120px;">Purchase Amount:</div>
+                        <div class="detail-value" style="text-align: right;">
+                            <div class="amount-highlight" style="font-weight: 600; color: #111827; font-size: 18px; margin-bottom: 4px;">USD 38,700,000</div>
+                            <div style="color: #6b7280; font-size: 14px;">(KES 6,000,000,000)</div>
+                        </div>
+                    </div>
                 </div>
                 
                 <p>Our local representative will contact you to arrange collection for inspection. Please ensure the item is available and prepared for secure transfer.</p>
