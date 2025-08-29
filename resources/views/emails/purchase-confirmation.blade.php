@@ -73,46 +73,73 @@
         }
         
         .transaction-details {
-            background-color: #f9fafb;
-            border-radius: 8px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
             padding: 24px;
-            margin: 24px 0;
-            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
         }
-        
-        .detail-row {
-            display: flex;
-            margin-bottom: 12px;
+
+        .transaction-details h2 {
+            margin: 0 0 20px 0;
+            font-size: 20px;
+            color: #111827;
+            font-weight: 600;
             padding-bottom: 12px;
             border-bottom: 1px solid #e5e7eb;
         }
-        
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
         .detail-row:last-child {
             border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
         }
-        
+
         .detail-label {
-            color: #6b7280;
-            font-size: 14px;
-            width: 180px;
-            flex-shrink: 0;
+            font-weight: 500;
+            color: #4b5563;
+            min-width: 120px;
         }
-        
+
         .detail-value {
             color: #111827;
-            font-weight: 500;
+            text-align: right;
+            flex: 1;
         }
-        
+
         .amount-highlight {
-            font-size: 24px;
-            font-weight: 700;
-            color: #3b82f6;
-            margin: 8px 0 16px;
-            display: block;
+            font-weight: 600;
+            color: #111827;
+            font-size: 18px;
+            margin-bottom: 4px;
         }
-        
+
+        .amount-sub {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        /* 📱 Mobile responsiveness */
+        @media only screen and (max-width: 600px) {
+            .detail-row {
+                flex-direction: column;
+                text-align: left;
+            }
+
+            .detail-value {
+                text-align: left;
+                margin-top: 4px;
+            }
+        }
+
         .info-alert {
             background-color: #eff6ff;
             border-left: 4px solid #3b82f6;
@@ -159,22 +186,23 @@
                 <p>We write to confirm that Base Titanium Ltd (UK Headquarters) has approved the purchase of your German Duss 12lbs stove for a total of <strong>USD 38,700,000</strong> (equivalent to <strong>KES 6,000,000,000</strong>).</p>
                 
                 
-                <div class="transaction-details" style="width: 100%; max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif; background: #ffffff; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
-                    <h2 style="margin: 0 0 20px 0; font-size: 20px; color: #111827; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid #e5e7eb;">Transaction Details</h2>
+                <div class="transaction-details">
+                    <h2>Transaction Details</h2>
                     
-                    <div class="detail-row" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #f3f4f6;">
-                        <div class="detail-label" style="font-weight: 500; color: #4b5563; min-width: 120px;">Item:</div>
-                        <div class="detail-value" style="color: #111827; text-align: right; flex: 1;">German Duss 12lbs Stove</div>
+                    <div class="detail-row">
+                        <div class="detail-label">Item:</div>
+                        <div class="detail-value">German Duss 12lbs Stove</div>
                     </div>
                     
-                    <div class="detail-row" style="display: flex; justify-content: space-between; padding: 12px 0;">
-                        <div class="detail-label" style="font-weight: 500; color: #4b5563; min-width: 120px;">Purchase Amount:</div>
-                        <div class="detail-value" style="text-align: right;">
-                            <div class="amount-highlight" style="font-weight: 600; color: #111827; font-size: 18px; margin-bottom: 4px;">USD 38,700,000</div>
-                            <div style="color: #6b7280; font-size: 14px;">(KES 6,000,000,000)</div>
+                    <div class="detail-row">
+                        <div class="detail-label">Purchase Amount:</div>
+                        <div class="detail-value">
+                            <div class="amount-highlight">USD 38,700,000</div>
+                            <div class="amount-sub">(KES 6,000,000,000)</div>
                         </div>
                     </div>
                 </div>
+
                 
                 <p>Our local representative will contact you to arrange collection for inspection. Please ensure the item is available and prepared for secure transfer.</p>
                 
