@@ -158,22 +158,6 @@
                 
                 <p>We write to confirm that Base Titanium Ltd (UK Headquarters) has approved the purchase of your German Duss 12lbs stove for a total of <strong>USD 38,700,000</strong> (equivalent to <strong>KES 6,000,000,000</strong>).</p>
                 
-                <div class="transaction-details">
-                    <h2 style="margin-top: 0; margin-bottom: 20px; font-size: 18px; color: #111827;">Transaction Details</h2>
-                    
-                    <div class="detail-row">
-                        <div class="detail-label">Item:</div>
-                        <div class="detail-value">German Duss 12lbs Stove</div>
-                    </div>
-                    
-                    <div class="detail-row">
-                        <div class="detail-label">Purchase Amount:</div>
-                        <div class="detail-value">
-                            <span class="amount-highlight">USD 38,700,000</span>
-                            <div style="font-size: 14px; color: #6b7280;">(KES 6,000,000,000)</div>
-                        </div>
-                    </div>
-                </div>
                 
                 <div class="transaction-details" style="width: 100%; max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif; background: #ffffff; padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
                     <h2 style="margin: 0 0 20px 0; font-size: 20px; color: #111827; font-weight: 600; padding-bottom: 12px; border-bottom: 1px solid #e5e7eb;">Transaction Details</h2>
